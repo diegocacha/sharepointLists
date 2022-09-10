@@ -1,0 +1,1 @@
+=INT(([Fecha inicio]-DATE(YEAR([Fecha inicio]),1,1)+(TEXT(WEEKDAY(DATE(YEAR([Fecha inicio]),1,1)),"d")))/7)
